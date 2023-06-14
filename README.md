@@ -19,5 +19,8 @@ Thats a HOW TO guide for using Kubernets (k8s) with GO installation and WSL.
 - Just type `go install sigs.k8s.io/kind@v0.19.0` but be aware that this is installing kind version 0.19.0
 - For older or newer kind version go to [kind official website][kind_website]
 
+## Step 3 - Create your cluster
+- To create your cluster with kind type `kind create cluster`
+
 [go_website]:https://go.dev/dl/
 [kind_website]:https://kind.sigs.k8s.io
